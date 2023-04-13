@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "name" : "INPUT_DIR",
+    "value" : "${PROJECT_HOME}/input",
+    "description" : ""
+  }, {
+    "name" : "OUTPUT_DIR",
+    "value" : "${PROJECT_HOME}/output",
+    "description" : ""
+  } ]
+}
