@@ -65,7 +65,7 @@
     <separator> </separator>
     <attributes/>
     <GUI>
-      <xloc>352</xloc>
+      <xloc>320</xloc>
       <yloc>160</yloc>
     </GUI>
   </transform>
@@ -207,7 +207,7 @@
     <sizeFieldName/>
     <attributes/>
     <GUI>
-      <xloc>192</xloc>
+      <xloc>160</xloc>
       <yloc>160</yloc>
     </GUI>
   </transform>
@@ -316,7 +316,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>528</xloc>
+      <xloc>496</xloc>
       <yloc>160</yloc>
     </GUI>
   </transform>
