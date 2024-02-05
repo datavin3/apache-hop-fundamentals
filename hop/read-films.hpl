@@ -50,7 +50,7 @@
     <cache>N</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
-    <connection>con-postgresql-dvdrental</connection>
+    <connection>dvdrental-connection</connection>
     <lookup>
       <eat_row_on_failure>N</eat_row_on_failure>
       <fail_on_multiple>N</fail_on_multiple>
@@ -58,10 +58,13 @@
         <condition>=</condition>
         <field>language_id</field>
         <name>language_id</name>
+        <name2/>
       </key>
+      <orderby/>
       <schema>"public"</schema>
       <table>"language"</table>
       <value>
+        <default/>
         <name>name</name>
         <rename>language_name</rename>
         <trim_type>none</trim_type>
@@ -85,7 +88,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>con-postgresql-dvdrental</connection>
+    <connection>dvdrental-connection</connection>
     <execute_each_row>N</execute_each_row>
     <limit>0</limit>
     <sql>SELECT

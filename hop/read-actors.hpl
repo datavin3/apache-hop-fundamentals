@@ -108,7 +108,7 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>${INPUT_DIR}/actors.csv</name>
+      <name>${INPUT_DIR}/dataset_actors.csv</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
