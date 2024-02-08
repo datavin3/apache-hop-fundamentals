@@ -22,17 +22,17 @@
   <order>
     <hop>
       <from>read-actors</from>
-      <to>buils-name</to>
+      <to>build-name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>buils-name</from>
+      <from>build-name</from>
       <to>write-actors-name</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <transform>
-    <name>buils-name</name>
+    <name>build-name</name>
     <type>ConcatFields</type>
     <description/>
     <distribute>Y</distribute>
@@ -50,15 +50,27 @@
     <enclosure>"</enclosure>
     <fields>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>10</length>
         <name>first_name</name>
+        <nullif/>
         <precision>-1</precision>
+        <trim_type/>
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>10</length>
         <name>last_name</name>
+        <nullif/>
         <precision>-1</precision>
+        <trim_type/>
         <type>String</type>
       </field>
     </fields>
