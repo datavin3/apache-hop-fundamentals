@@ -1,6 +1,6 @@
 {
   "description" : "Course Apache Hop Fundamentals",
-  "company" : "GuiAme",
+  "company" : "Datavin3",
   "department" : "Apache Hop",
   "metadataBaseFolder" : "${PROJECT_HOME}/metadata",
   "unitTestsBasePath" : "${PROJECT_HOME}",

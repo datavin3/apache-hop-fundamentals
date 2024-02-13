@@ -22,5 +22,5 @@
       "username": "${DVDRENTAL_USERNAME}"
     }
   },
-  "name": "con-postgresql-dvdrental"
+  "name": "dvdrental-connection"
 }

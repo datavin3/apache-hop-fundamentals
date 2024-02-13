@@ -63,8 +63,8 @@
       <attributes/>
       <connections>
         <connection>
-          <name>con-postgresql-dvdrental</name>
-          <waitfor>100</waitfor>
+          <name>dvdrental-connection</name>
+          <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
       </connections>
