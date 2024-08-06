@@ -58,13 +58,10 @@
         <condition>=</condition>
         <field>language_id</field>
         <name>language_id</name>
-        <name2/>
       </key>
-      <orderby/>
       <schema>"public"</schema>
       <table>"language"</table>
       <value>
-        <default/>
         <name>name</name>
         <rename>language_name</rename>
         <trim_type>none</trim_type>
@@ -160,6 +157,7 @@ FROM "public".film
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <schema_definition/>
     <separator>;</separator>
     <enclosure>"</enclosure>
     <enclosure_forced>N</enclosure_forced>
@@ -194,14 +192,14 @@ FROM "public".film
       <field>
         <name>film_id</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>0</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>9</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>title</name>
@@ -211,8 +209,8 @@ FROM "public".film
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>255</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -223,81 +221,81 @@ FROM "public".film
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>release_year</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>0</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>9</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>language_id</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>0</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>4</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>rental_duration</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>0</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>4</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>rental_rate</name>
         <type>Number</type>
-        <format>####0.0#########;-####0.0#########</format>
+        <format>0.#####</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>4</length>
-        <precision>2</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>length</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>0</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>4</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>replacement_cost</name>
         <type>Number</type>
-        <format>####0.0#########;-####0.0#########</format>
+        <format>0.#####</format>
         <currency>€</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>5</length>
-        <precision>2</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>rating</name>
@@ -307,7 +305,7 @@ FROM "public".film
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -319,7 +317,7 @@ FROM "public".film
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -331,8 +329,8 @@ FROM "public".film
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>20</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
     </fields>
